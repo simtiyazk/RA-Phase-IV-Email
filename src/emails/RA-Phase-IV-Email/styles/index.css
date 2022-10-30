@@ -1,0 +1,134 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .mobile-show {
+    display: table !important;
+  }
+
+  .mobile-hide {
+    display: none !important;
+  }
+
+  .mobile-center {
+    text-align: center !important;
+  }
+
+  .mobile-table {
+    width: 100% !important;
+  }
+
+  .mobile-table-100 {
+    width: 100% !important;
+  }
+
+  img.mobile-show {
+    display: block !important;
+  }
+
+  .headTop{
+    padding:0px 15px 0px 15px !important;
+  }
+  .headTop10{
+    padding:0px 15px 0px 11px !important;
+  } 
+  .pBot15{
+    padding:0px 0px 15px 0px !important;
+  }
+  .bodyMain{
+    padding:0px 15px 15px 15px !important;
+  }
+  .bodyMain2{
+    padding:0px 15px 0px 15px !important;
+  }
+  .bodyMain3{
+    padding: 9px 15px 0px 15px !important;
+  }
+  .bodyMain4{
+    padding:0px 15px 0px 15px !important;
+  }
+  .bodyMain10{
+    padding:0px 15px 15px 15px !important;
+  }
+  .bodyMainCTA{
+    padding:0px 0px 0px 0px !important;
+  }
+  .bodyMainRef{
+    padding:0px 15px 0px 8px !important;
+  }
+  .bodyMain2Mobile{
+    padding:0px 15px 0px 9px !important;    
+  }
+  .m-td-h{
+    height:36px !important;
+    line-height: 36px !important;
+  }
+  .mkLogo{
+    width: 100% !important;
+  }
+  .ALogo{
+    width: 100% !important;
+  }
+  .h45{
+    height: 45px !important;
+  }
+  .frags{
+    padding:0px 15px 15px 15px !important;
+  }
+  .frags01{
+    padding:0px 15px 0px 11px !important;
+  }
+  .dBlock{
+    display: block !important;
+  }
+  .dBlock1{
+    padding-top: 17px !important;
+    display: block !important;
+  }  
+  .frag1Txt1{
+    padding:10px 15px 10px 15px !important;
+  }
+  .bodyMain41{
+    padding:15px 20px 15px 20px !important;
+  }
+  .padTZero{
+    padding-top:0px !important;
+  }
+  .padT15{
+    padding-top:15px !important;
+  }
+  .preLink{
+    font-size: 11px !important;
+    line-height: 12px !important;    
+  }
+  .hTxt1{
+    font-size: 24px !important;
+    line-height: 27px !important;
+  }
+  .hTxt2{
+    font-size: 20px !important;
+    line-height: 22px !important;    
+  }
+  .hTxt4{
+    font-size: 18px !important;
+    line-height: 21px !important;
+  }
+  .fSize20{
+    font-size: 18px !important;
+    line-height: 20px !important;    
+  }
+  .mobHide{
+    display: none !important;
+  }
+  .extrapad{
+    padding-top:10px !important;
+  }
+
+  .bPointHollow {
+    line-height: 22px !important;
+  }
+  .bPoint {
+    line-height: 21px !important;
+  }
+  .fontFamily {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

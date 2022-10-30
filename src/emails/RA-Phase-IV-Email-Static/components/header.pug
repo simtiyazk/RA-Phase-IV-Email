@@ -1,0 +1,48 @@
+table(width="600" align="center" class="mobile-table" bgcolor="#FFFFFF")&attributes(tableAtt)
+  //- tr
+  //-   td
+  //-     include ../fragments/intro/desktop.pug
+  //-     <!--[if !mso]><!-->
+  //-     include ../fragments/intro/mobile.pug
+  //-     <!-- <![endif]-->
+  tr
+    td(align="center" class="" bgcolor="#D6B3BA" height="20")
+      table(align="center" width="100%")&attributes(tableAtt)
+        tr
+          td(align="center" height="20" style="width: 49.9%;height: 20px;border-right: 1px solid #8B1C40;")
+            a(href='#isi-link' class='preLink fontFamily') Important Safety Information
+          td(align="center" height="20" style="width: 49.9%;height: 20px;")
+            a(href='http://www.acthar.com/pdf/Acthar-PI.pdf', target='_blank' class='preLink fontFamily') Prescribing Information
+  tr
+    td(align="left" class="headTop" bgcolor="#E87722")
+      table(align="left" width="100%")&attributes(tableAtt)
+        +vSpacer(30)
+        tr
+          td(align="left" class="hTxt1 silver") PIVOTAL PHASE 4 DATA
+        +vSpacer(15)
+        tr
+          td(align="left" class="hTxt2 silver") For patients with tough-to-treat <br/>rheumatoid arthritis
+        +vSpacer(10)
+        tr
+          td(align="left" class="fSize16 white")
+            strong Disclosure statement: 
+            | Funding to support the preparation of this content was provided by Mallinckrodt Pharmaceuticals.
+        +vSpacer(15)
+  tr
+    td(align="left" bgcolor="#E87722" style="line-height:0px;")
+      table(align="left" width="100%")&attributes(tableAtt)
+        tr(style="border-collapse:collapse;")
+          td(align="left" bgcolor="#E87722" style="line-height:0px;")
+            img(src=img_path+"heroDesktop.png" width="384" class="mobile-hide" style="line-height:0px;display:block;")
+          td(align="left" width="100%" bgcolor="#8b1d40" style="line-height:0px;")
+            a(href="https://www.actharrheumatologyhcp.com/?utm_source=veeva&utm_medium=email&utm_campaign=ra_phase_iv_update&utm_content=acthar_logo_header" target="_blank")
+              img(src=img_path+"heroLogo.png" width="180" class="mobile-hide" style="line-height:0px;")
+      <!--[if !mso]><!-->
+      table(align="left" width="100%" class="mobile-show" style="display:none; border-collapse:collapse;")&attributes(tableAtt)
+        tr(style="border-collapse:collapse;")
+          td(align="left" width="52%" bgcolor="#E87722" style="line-height:0px; border-collapse:collapse;" border="0")
+            img(src=img_path+"heroMobile.png" width="100%" class="mobile-show" style="line-height:0px;display:none; font-size: 2px; float:left" align="absbottom" border="0")
+          td(align="left" width="48%" bgcolor="#8b1d40" style="line-height:0px; border-collapse:collapse;" border="0")
+            a(href="https://www.actharrheumatologyhcp.com/?utm_source=veeva&utm_medium=email&utm_campaign=ra_phase_iv_update&utm_content=acthar_logo_header" target="_blank")
+              img(src=img_path+"heroLogo.png" width="87%" class="mobile-show" style="display: none;line-height:0px; font-size: 2px; float:left" align="absbottom" border="0")
+      <!-- <![endif]-->
